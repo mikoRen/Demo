@@ -17,6 +17,7 @@ export default class DetailsScreen extends Component {
       return (
         <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
           <Text>Details!</Text>
+          <Text>Details is Perfect!</Text>
           <Text>itemID: {JSON.stringify(itemID)}</Text>
           <Text>otherParam: {JSON.stringify(otherParam)}</Text>
           <Button
