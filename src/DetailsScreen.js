@@ -16,8 +16,7 @@ export default class DetailsScreen extends Component {
       const otherParam = navigation.getParam('otherParam','some default value');
       return (
         <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-          <Text>Details!</Text>
-          <Text>Details is Perfect!</Text>
+          <Text>Details LALALA!</Text>
           <Text>itemID: {JSON.stringify(itemID)}</Text>
           <Text>otherParam: {JSON.stringify(otherParam)}</Text>
           <Button
@@ -36,6 +35,7 @@ export default class DetailsScreen extends Component {
           title="Update the title"
           onPress={() => this.props.navigation.setParams({otherParam: 'Updated!'})}
           />
+          
         </View>
       );
     }
